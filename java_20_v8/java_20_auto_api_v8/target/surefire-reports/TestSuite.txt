@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 12.45 s <<< FAILURE! - in TestSuite
+test(com.lemon.cases.RegisterCase)  Time elapsed: 1.255 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:41)
+
+test(com.lemon.cases.RegisterCase)  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:41)
+
+test(com.lemon.cases.RegisterCase)  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:41)
+
+test(com.lemon.cases.RegisterCase)  Time elapsed: 0.142 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:41)
+
+test(com.lemon.cases.RegisterCase)  Time elapsed: 0.575 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:41)
+
+test(com.lemon.cases.LoginCase)  Time elapsed: 0.141 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:36)
+
+test(com.lemon.cases.LoginCase)  Time elapsed: 0.15 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:36)
+
+test(com.lemon.cases.LoginCase)  Time elapsed: 0.133 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:36)
+
+test(com.lemon.cases.LoginCase)  Time elapsed: 0.202 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:36)
+
+test(com.lemon.cases.RechargeCase)  Time elapsed: 0.213 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:50)
+
+test(com.lemon.cases.RechargeCase)  Time elapsed: 0.14 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:50)
+
+test(com.lemon.cases.RechargeCase)  Time elapsed: 0.146 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:50)
+
+test(com.lemon.cases.RechargeCase)  Time elapsed: 0.133 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:50)
+
+test(com.lemon.cases.RechargeCase)  Time elapsed: 0.842 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:50)
+

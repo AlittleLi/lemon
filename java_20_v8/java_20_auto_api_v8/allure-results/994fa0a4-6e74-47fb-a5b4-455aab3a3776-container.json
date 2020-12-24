@@ -1,0 +1,1 @@
+{"uuid":"994fa0a4-6e74-47fb-a5b4-455aab3a3776","name":"com.lemon.cases.AuditCase","start":1597411355696,"stop":1597411355809,"children":["85cee4e1-86c4-4dfa-847c-73b358c09111"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","start":1597411355696,"stop":1597411355696}]}

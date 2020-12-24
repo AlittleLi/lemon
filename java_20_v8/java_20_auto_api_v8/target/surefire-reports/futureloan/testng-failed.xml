@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [futureloan]">
+  <test name="注册接口(failed)">
+    <parameter name="sheetIndex" value="0"/>
+    <classes>
+      <class name="com.lemon.cases.RegisterCase">
+        <methods>
+          <include name="test" invocation-numbers="0 1 2 3 5"/>
+          <include name="finish"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.lemon.cases.RegisterCase -->
+    </classes>
+  </test> <!-- 注册接口(failed) -->
+  <test name="登录接口(failed)">
+    <parameter name="sheetIndex" value="1"/>
+    <classes>
+      <class name="com.lemon.cases.LoginCase">
+        <methods>
+          <include name="test" invocation-numbers="1 2 3 4"/>
+          <include name="finish"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.lemon.cases.LoginCase -->
+    </classes>
+  </test> <!-- 登录接口(failed) -->
+  <test name="充值接口(failed)">
+    <parameter name="sheetIndex" value="2"/>
+    <classes>
+      <class name="com.lemon.cases.RechargeCase">
+        <methods>
+          <include name="finish"/>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.lemon.cases.RechargeCase -->
+    </classes>
+  </test> <!-- 充值接口(failed) -->
+</suite> <!-- Failed suite [futureloan] -->

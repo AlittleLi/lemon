@@ -1,0 +1,1 @@
+{"uuid":"341fb713-5c28-4340-a74b-ac45885608c1","name":"com.lemon.cases.UserInfoCase","start":1597409505493,"stop":1597409505734,"children":["db2c162e-0f4a-441a-8ffe-b50680339cd9"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","start":1597409505494,"stop":1597409505494}]}
